@@ -59,7 +59,7 @@ function App() {
                 Location
               </h2>
               <a
-                href="https://yandex.ru/maps/org/sviyazhsk/43323575962?si=y4m7texn504qwfpjxbpka9dwk4"
+                href="https://yandex.com/maps/-/CLhEmX5v"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden md:inline-block mt-4 text-white font-body text-xs md:text-sm px-6 py-2 rounded-full bg-[#E8A090] hover:bg-[#ca7865] transition-opacity uppercase tracking-wider"
@@ -77,7 +77,7 @@ function App() {
                 ул. Дорожная, д.40
               </p>
               <a
-                href="https://yandex.ru/maps/org/sviyazhsk/43323575962?si=y4m7texn504qwfpjxbpka9dwk4"
+                href="https://yandex.com/maps/-/CLhEmX5v"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block md:hidden mt-4 text-white font-body text-xs md:text-sm px-6 py-2 rounded-full bg-[#E8A090] hover:bg-[#ca7865] transition-opacity uppercase tracking-wider"
