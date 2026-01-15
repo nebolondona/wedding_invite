@@ -4,10 +4,12 @@
 
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 body {
   font-family: "Palatino Linotype", serif;
+  overscroll-behavior: none;
 }
 
 .top-edge {
