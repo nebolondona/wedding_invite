@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Good Vibes Pro";
+  src: url("./assets/fonts/Good_Vibes_Pro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("./assets/fonts/palatinolinotype_roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("./assets/fonts/palatinolinotype_bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("./assets/fonts/palatinolinotype_italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("./assets/fonts/palatinolinotype_bolditalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Palatino Linotype", serif;
+}
+
+.top-edge {
+  @apply absolute top-0 left-0 w-full -translate-y-[99%] rotate-180;
+}
+
+.bottom-edge {
+  @apply absolute bottom-0 left-0 w-full translate-y-[99%] z-[1];
+}
+
+.bg-gradient-top-to-bottom {
+  background: linear-gradient(180deg, #FFFFFF -2.26%, #9F0000 21.02%, #A90000 97.97%, #000000 98.98%);
+}
+
+.bg-gradient-bottom-to-top {
+  background: linear-gradient(0deg, #FFFFFF -2.26%, #9F0000 21.02%, #A90000 97.97%, #000000 98.98%);
+}
